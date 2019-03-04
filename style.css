@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+  background-color: #1F2226;
+}
+
+header{
+  background-color: white;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  padding:  0.3em 0em;
+  color: white;
+}
+h2{
+  color: white;
+  padding-top: 1em;
+/*  text-align: center;*/
+}
+p{
+  color: white;
+  text-align: center;
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 200%;
+}
+
+#hello{
+  background-color: white;
+  padding: 1em;
+  width: auto;
+}
+#date{
+  background-color: white;
+  padding: 1em;
+  width: auto;
+}
+#clock{
+  background-color: white;
+  padding: 1em;
+  width: auto;
+  text-align: center;
+}
+.container{
+width: 100%;
+align-items: center;
+display: flex;
+flex-flow: column;
+}
+
+/* media queries*/
+@media all and (min-width:540px) {
+
+}
+@media all and (min-width:768px) {
+
+}
+@media all and (min-width:1024px) {
+
+}

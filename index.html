@@ -3,13 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Date</title>
+		<title>Challenge 2</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body onload="startTime()" >
-		<img class="background "src="images/day.jpg" alt="images">
-		<h1 id="mainHeading">SpaceX</h1>
+	<body>
+		<picture>
+			<img class="background "src="images/day.jpg" alt="images">
+		</picture>
+		<h1 id="mainHeading">spaceX</h1>
 		<p id="message"></p>
+		<aside class="button">
+			<button id="clM" type="button" name="button">click me</button>
+		</aside>
 		<main class="container">
 			<div class="item one">
 				<article id="hello">Good afternoon</article>
@@ -21,6 +26,8 @@
 				<article id="clock"></article>
 			</div>
     </main>
+		<!--javascript-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 		<script src="main.js"></script>
 	</body>
 </html>

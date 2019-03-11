@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
 body{
-  font-family: sans-serif;
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
   background-color: #1F2226;
 }
 
@@ -7,10 +10,11 @@ header{
   background-color: white;
 }
 h1{
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding:  0.3em 0em;
   color: white;
+  font-family: 'Major Mono Display', sans-serif;
 }
 h2{
   color: white;
@@ -21,35 +25,65 @@ p{
   color: white;
   text-align: center;
 }
-img {
+.background {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    width: 100%;
+    right: 0;
+    bottom:0;
+    box-sizing: border-box;
+    padding: 0% 0%;
     z-index: -1;
-    width: 200%;
+    transform: scaleY(0);
+    transform-origin: bottom;*/
 }
+.button{
+  display: flex;
+  justify-content: center;
+}
+#clM{
+color: #F8B900;
+background: none;
+border: 4px solid #F8B900;
+font-family: 'ZCOOL QingKe HuangYou';
+font-weight: bold;
+font-size: 1.5em;
+padding: 0.5em 1em;
+cursor: pointer;
+margin-bottom: 1em;
 
+
+}
 #hello{
-  background-color: white;
+/*background-color: white;*/
   padding: 1em;
   width: auto;
+  font-size: 30px;
+  opacity: 0;
+  transform: translateY(-200px);
 }
 #date{
-  background-color: white;
+/*background-color: white;*/
   padding: 1em;
   width: auto;
+  font-size: 30px;
+  opacity: 0;
+  transform: translateX(-200px);
 }
 #clock{
-  background-color: white;
+  /*background-color: white;*/
   padding: 1em;
   width: auto;
   text-align: center;
+  font-size: 40px;
+  opacity: 0;
+  transform: translateX(200px);
 }
 .container{
 width: 100%;
 align-items: center;
 display: flex;
 flex-flow: column;
+/*background-color: white;*/
 }
 
 /* media queries*/
